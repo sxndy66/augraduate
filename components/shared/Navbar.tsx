@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { useRouter } from "next/navigation";
@@ -76,9 +77,12 @@ export function Navbar({ user, profile }: { user: User; profile: Profile }) {
               className="flex items-center gap-2 rounded-lg px-2 py-1.5 hover:bg-[#1A1A26] transition-colors"
             >
               {avatarUrl ? (
-                <img
+                <Image
                   src={avatarUrl}
                   alt={displayName}
+                  width={28}
+                  height={28}
+                  unoptimized
                   className="w-7 h-7 rounded-full border border-[#2A2A3D]"
                 />
               ) : (

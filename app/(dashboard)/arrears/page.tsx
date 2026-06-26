@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 
 interface ArrearSubject {
@@ -17,11 +17,9 @@ export default function ArrearsPage() {
   const [arrears, setArrears] = useState<ArrearSubject[]>([]);
   const [loading, setLoading] = useState(true);
   const [updating, setUpdating] = useState<string | null>(null);
-  const supabase = createClient();
+  const supabase = useMemo(() => createClient(), []);
 
-  useEffect(() => { fetchArrears(); }, []);
-
-  async function fetchArrears() {
+  const fetchArrears = useCallback(async () => {
     setLoading(true);
     const { data, error } = await supabase
       .from("subjects")
@@ -33,7 +31,9 @@ export default function ArrearsPage() {
       setArrears(data as unknown as ArrearSubject[]);
     }
     setLoading(false);
-  }
+  }, [supabase]);
+
+  useEffect(() => { void fetchArrears(); }, [fetchArrears]);
 
   async function markCleared(id: string) {
     setUpdating(id);

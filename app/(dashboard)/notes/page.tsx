@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 
 interface Note {
@@ -21,11 +21,9 @@ export default function NotesPage() {
   const [subjectCode, setSubjectCode] = useState("");
   const [type, setType] = useState<"note" | "pyq" | "lab" | "syllabus">("note");
   const [saving, setSaving] = useState(false);
-  const supabase = createClient();
+  const supabase = useMemo(() => createClient(), []);
 
-  useEffect(() => { fetchNotes(); }, []);
-
-  async function fetchNotes() {
+  const fetchNotes = useCallback(async () => {
     setLoading(true);
     const { data, error } = await supabase
       .from("notes")
@@ -34,13 +32,15 @@ export default function NotesPage() {
 
     if (!error && data) setNotes(data as Note[]);
     setLoading(false);
-  }
+  }, [supabase]);
+
+  useEffect(() => { void fetchNotes(); }, [fetchNotes]);
 
   async function handleSave() {
     if (!title.trim() || !content.trim()) return;
     setSaving(true);
     const { data: { user } } = await supabase.auth.getUser();
-    if (!user) return;
+    if (!user) { setSaving(false); return; }
 
     await supabase.from("notes").insert({
       student_id: user.id,

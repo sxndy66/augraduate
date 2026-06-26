@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { ManualEntryForm } from "@/components/scanner/ManualEntryForm";
 import { SubjectTable } from "@/components/scanner/SubjectTable";
@@ -24,11 +24,9 @@ export default function DashboardPage() {
   const [pendingSubjects, setPendingSubjects] = useState<ParsedSubject[]>([]);
   const [saving, setSaving] = useState(false);
   const [newSemNumber, setNewSemNumber] = useState(1);
-  const supabase = createClient();
+  const supabase = useMemo(() => createClient(), []);
 
-  useEffect(() => { fetchSemesters(); }, []);
-
-  async function fetchSemesters() {
+  const fetchSemesters = useCallback(async () => {
     setLoading(true);
     const { data: { user } } = await supabase.auth.getUser();
     if (!user) { setLoading(false); return; }
@@ -44,7 +42,9 @@ export default function DashboardPage() {
       setNewSemNumber(data.length + 1);
     }
     setLoading(false);
-  }
+  }, [supabase]);
+
+  useEffect(() => { void fetchSemesters(); }, [fetchSemesters]);
 
   const cgpa = useMemo(() => {
     const allSubjects = semesters.flatMap((s) => s.subjects || []);

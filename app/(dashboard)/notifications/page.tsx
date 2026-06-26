@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 
 interface Notification {
@@ -15,11 +15,9 @@ interface Notification {
 export default function NotificationsPage() {
   const [notifs, setNotifs] = useState<Notification[]>([]);
   const [loading, setLoading] = useState(true);
-  const supabase = createClient();
+  const supabase = useMemo(() => createClient(), []);
 
-  useEffect(() => { fetchNotifs(); }, []);
-
-  async function fetchNotifs() {
+  const fetchNotifs = useCallback(async () => {
     setLoading(true);
     const { data, error } = await supabase
       .from("au_notifications")
@@ -31,9 +29,11 @@ export default function NotificationsPage() {
       setNotifs(data as Notification[]);
     }
     setLoading(false);
-  }
+  }, [supabase]);
 
-  async function markRead(id: string) {
+  useEffect(() => { void fetchNotifs(); }, [fetchNotifs]);
+
+  function markRead(id: string) {
     setNotifs((prev) => prev.filter((n) => n.id !== id));
   }
 
