@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 
 interface AttendanceRecord {
@@ -16,11 +16,9 @@ export default function AttendancePage() {
   const [loading, setLoading] = useState(true);
   const [editing, setEditing] = useState<Record<string, { total_classes: number; attended_classes: number }>>({});
   const [saving, setSaving] = useState(false);
-  const supabase = createClient();
+  const supabase = useMemo(() => createClient(), []);
 
-  useEffect(() => { fetchAttendance(); }, []);
-
-  async function fetchAttendance() {
+  const fetchAttendance = useCallback(async () => {
     setLoading(true);
     const { data, error } = await supabase
       .from("attendance")
@@ -31,7 +29,9 @@ export default function AttendancePage() {
       setRecords(data as unknown as AttendanceRecord[]);
     }
     setLoading(false);
-  }
+  }, [supabase]);
+
+  useEffect(() => { void fetchAttendance(); }, [fetchAttendance]);
 
   function startEdit(r: AttendanceRecord) {
     setEditing((prev) => ({ ...prev, [r.id]: { total_classes: r.total_classes, attended_classes: r.attended_classes } }));

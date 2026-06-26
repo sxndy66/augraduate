@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useRef, useCallback } from "react";
 import { parseOCRText, type ParsedSubject } from "@/lib/ocr/parser";
 
@@ -137,9 +138,12 @@ export function OCRUploader({ onParsed }: OCRUploaderProps) {
       {scanState === "scanning" && (
         <div className="card flex flex-col items-center gap-4 py-10">
           {preview && (
-            <img
+            <Image
               src={preview}
               alt="Scanning"
+              width={192}
+              height={128}
+              unoptimized
               className="h-32 w-auto rounded-lg border border-[#2A2A3D] object-contain opacity-60"
             />
           )}
