@@ -6,10 +6,10 @@ import { createClient } from "@/lib/supabase/client";
 interface Notification {
   id: string;
   title: string;
-  body: string;
   url: string | null;
-  is_read: boolean;
-  created_at: string;
+  category: string;
+  published_at: string | null;
+  scraped_at: string;
 }
 
 export default function NotificationsPage() {
@@ -24,7 +24,7 @@ export default function NotificationsPage() {
     const { data, error } = await supabase
       .from("au_notifications")
       .select("*")
-      .order("created_at", { ascending: false })
+      .order("scraped_at", { ascending: false })
       .limit(50);
 
     if (!error && data) {
@@ -34,8 +34,7 @@ export default function NotificationsPage() {
   }
 
   async function markRead(id: string) {
-    await supabase.from("au_notifications").update({ is_read: true }).eq("id", id);
-    setNotifs((prev) => prev.map((n) => (n.id === id ? { ...n, is_read: true } : n)));
+    setNotifs((prev) => prev.filter((n) => n.id !== id));
   }
 
   if (loading) {
@@ -53,7 +52,7 @@ export default function NotificationsPage() {
           AU Alerts
         </h1>
         <span className="text-xs text-[#6B6B80] bg-[#1A1A26] px-3 py-1.5 rounded-lg border border-[#2A2A3D]">
-          {notifs.filter((n) => !n.is_read).length} unread
+          {notifs.length} total
         </span>
       </div>
 
@@ -72,35 +71,42 @@ export default function NotificationsPage() {
           {notifs.map((n) => (
             <div
               key={n.id}
-              className={`card flex items-start gap-4 transition-colors ${
-                n.is_read ? "border-[#2A2A3D] opacity-70" : "border-[#6C63FF]/30"
-              }`}
+              className="card flex items-start gap-4 transition-colors border-[#2A2A3D]"
             >
-              <div className={`w-3 h-3 rounded-full mt-1 shrink-0 ${n.is_read ? "bg-[#2A2A3D]" : "bg-[#6C63FF]"}`} />
+              <div className="w-3 h-3 rounded-full mt-1 shrink-0 bg-[#6C63FF]" />
               <div className="flex-1 min-w-0">
                 <div className="flex items-start justify-between gap-2">
-                  <h3 className={`text-sm font-medium ${n.is_read ? "text-[#6B6B80]" : "text-[#E8E8F0]"}`}>
+                  <h3 className="text-sm font-medium text-[#E8E8F0]">
                     {n.title}
                   </h3>
                   <span className="text-[10px] text-[#6B6B80] shrink-0">
-                    {new Date(n.created_at).toLocaleDateString("en-IN", {
-                      day: "numeric",
-                      month: "short",
-                      year: "2-digit",
-                    })}
+                    {n.published_at
+                      ? new Date(n.published_at).toLocaleDateString("en-IN", {
+                          day: "numeric", month: "short", year: "2-digit",
+                        })
+                      : n.scraped_at
+                        ? new Date(n.scraped_at).toLocaleDateString("en-IN", {
+                            day: "numeric", month: "short", year: "2-digit",
+                          })
+                        : ""}
                   </span>
                 </div>
-                <p className={`text-xs mt-1 ${n.is_read ? "text-[#6B6B80]" : "text-[#E8E8F0]"}`}>
-                  {n.body}
-                </p>
-                {!n.is_read && (
-                  <button
-                    onClick={() => markRead(n.id)}
-                    className="text-xs text-[#6C63FF] hover:underline mt-2"
+                {n.url && (
+                  <a
+                    href={n.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-[#6C63FF] hover:underline mt-2 inline-block"
                   >
-                    Mark as read
-                  </button>
+                    View details &rarr;
+                  </a>
                 )}
+                <button
+                  onClick={() => markRead(n.id)}
+                  className="text-xs text-[#6B6B80] hover:text-[#FF4757] ml-3"
+                >
+                  Dismiss
+                </button>
               </div>
             </div>
           ))}

@@ -70,15 +70,8 @@ export default function AttendancePage() {
     if (!user) return;
 
     const subjectId = crypto.randomUUID();
-    await supabase.from("subjects").insert({
-      id: subjectId,
-      semester_id: "00000000-0000-0000-0000-000000000000",
-      subject_code: "TEMP",
-      subject_name: name.trim(),
-      credits: 3,
-    });
-
     await supabase.from("attendance").insert({
+      id: subjectId,
       student_id: user.id,
       subject_id: subjectId,
       subject_name: name.trim(),

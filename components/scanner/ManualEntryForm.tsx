@@ -40,8 +40,8 @@ export function ManualEntryForm({ onAdd }: ManualEntryFormProps) {
   function validate(): string | null {
     for (let i = 0; i < rows.length; i++) {
       const r = rows[i];
-      if (!r.subject_code.match(/^[A-Z]{2,3}\d{4}$/)) {
-        return `Row ${i + 1}: Subject code must be like CS3401 or MA3391.`;
+      if (!r.subject_code.match(/^[A-Z]{2}\d{4,6}$/)) {
+        return `Row ${i + 1}: Subject code must be like CS3401.`;
       }
       if (!r.subject_name.trim()) {
         return `Row ${i + 1}: Subject name is required.`;

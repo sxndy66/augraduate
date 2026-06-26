@@ -23,6 +23,9 @@ export default function ScannerPage() {
     if (subjects.length === 0) return;
     setSaving(true);
     setSaved(false);
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) { setSaving(false); return; }
+
     const gpa = calculateGPA(subjects);
     const credits = subjects
       .filter((s) => !["U", "AB", "SA", "RA"].includes(s.grade))
@@ -31,6 +34,7 @@ export default function ScannerPage() {
     const { data: sem, error } = await supabase
       .from("semesters")
       .insert({
+        student_id: user.id,
         semester_number: semesterNumber,
         gpa,
         total_credits: credits,

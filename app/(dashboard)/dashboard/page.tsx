@@ -30,9 +30,13 @@ export default function DashboardPage() {
 
   async function fetchSemesters() {
     setLoading(true);
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) { setLoading(false); return; }
+
     const { data, error } = await supabase
       .from("semesters")
       .select("*, subjects(*)")
+      .eq("student_id", user.id)
       .order("semester_number", { ascending: true });
 
     if (!error && data) {
@@ -56,6 +60,9 @@ export default function DashboardPage() {
   async function handleSaveSemester() {
     if (pendingSubjects.length === 0) return;
     setSaving(true);
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) { setSaving(false); return; }
+
     const gpa = calculateGPA(pendingSubjects);
     const credits = pendingSubjects
       .filter((s) => !["U", "AB", "SA", "RA"].includes(s.grade))
@@ -64,6 +71,7 @@ export default function DashboardPage() {
     const { data: sem, error } = await supabase
       .from("semesters")
       .insert({
+        student_id: user.id,
         semester_number: newSemNumber,
         gpa,
         total_credits: credits,
