@@ -9,7 +9,7 @@ export function middleware(request: NextRequest) {
   const isProtected = protectedPaths.some((p) => pathname === p || pathname.startsWith(p + "/"));
 
   if (isProtected) {
-    const hasAuth = request.cookies.getAll().some((c) => c.name.startsWith("sb-") && c.name.endsWith("-auth-token"));
+    const hasAuth = request.cookies.getAll().some((c) => c.name === "sb-auth");
 
     if (!hasAuth) {
       const loginUrl = new URL("/login", request.url);

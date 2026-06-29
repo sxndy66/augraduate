@@ -1,25 +1,30 @@
-import { createBrowserClient } from "@supabase/ssr";
-import type { GetAllCookies, SetAllCookies } from "@supabase/ssr";
+import { createClient as createSupabaseClient } from "@supabase/supabase-js";
+
+const AUTH_COOKIE = "sb-auth";
 
 export function createClient() {
-  const getAll: GetAllCookies = async () => {
-    if (typeof document === "undefined") return [];
-    return document.cookie.split("; ").map((c) => {
-      const sep = c.indexOf("=");
-      if (sep === -1) return { name: c.trim(), value: "" };
-      return { name: c.slice(0, sep).trim(), value: c.slice(sep + 1) };
-    }).filter((c) => c.name);
-  };
-
-  const setAll: SetAllCookies = async (cookiesToSet) => {
-    cookiesToSet.forEach(({ name, value, options }) => {
-      document.cookie = `${name}=${value}; path=/; max-age=${options?.maxAge ?? 31536000}; SameSite=Lax`;
-    });
-  };
-
-  return createBrowserClient(
+  const client = createSupabaseClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    { cookies: { getAll, setAll } },
+    {
+      auth: {
+        autoRefreshToken: true,
+        detectSessionInUrl: true,
+        persistSession: true,
+      },
+    },
   );
+
+  // Sync auth state to a cookie so the middleware can detect the session
+  client.auth.onAuthStateChange((event, session) => {
+    if (event === "SIGNED_IN" || event === "TOKEN_REFRESHED") {
+      if (session) {
+        document.cookie = `${AUTH_COOKIE}=${session.access_token}; path=/; max-age=31536000; SameSite=Lax; Secure`;
+      }
+    } else if (event === "SIGNED_OUT") {
+      document.cookie = `${AUTH_COOKIE}=; path=/; max-age=0`;
+    }
+  });
+
+  return client;
 }

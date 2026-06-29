@@ -19,18 +19,24 @@ export function LoginForm() {
 
     try {
       const supabase = createClient();
-      const authFn = isSignUp ? supabase.auth.signUp : supabase.auth.signInWithPassword;
-      const { error } = await authFn({
-        email,
-        password,
-        options: { emailRedirectTo: `${window.location.origin}/auth/callback` },
-      });
-
-      if (error) throw error;
 
       if (isSignUp) {
+        const { error } = await supabase.auth.signUp({
+          email,
+          password,
+          options: { emailRedirectTo: `${window.location.origin}/auth/callback` },
+        });
+        if (error) throw error;
         setMessage("Check your email to confirm your account.");
       } else {
+        const { data, error } = await supabase.auth.signInWithPassword({
+          email,
+          password,
+        });
+        if (error) throw error;
+        if (data.session?.access_token) {
+          document.cookie = `sb-auth=${data.session.access_token}; path=/; max-age=31536000; SameSite=Lax; Secure`;
+        }
         window.location.href = "/dashboard";
       }
     } catch (err: unknown) {
