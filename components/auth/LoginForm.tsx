@@ -42,7 +42,16 @@ export function LoginForm() {
             });
           }
         }
+
+        if (data.session?.access_token) {
+          document.cookie = `sb-auth=${data.session.access_token}; path=/; max-age=31536000; SameSite=Lax; Secure`;
+          await ensureProfile();
+          window.location.href = "/dashboard";
+          return;
+        }
+
         setMessage("Account created! You can now sign in.");
+        setLoading(false);
       } else {
         const { data, error } = await supabase.auth.signInWithPassword({
           email,
