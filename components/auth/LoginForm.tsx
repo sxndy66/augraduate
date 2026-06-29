@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { createClient } from "@/lib/supabase/client";
+import { ensureProfile } from "@/lib/supabase/profile";
 
 export function LoginForm() {
   const [email, setEmail] = useState("");
@@ -21,13 +22,27 @@ export function LoginForm() {
       const supabase = createClient();
 
       if (isSignUp) {
-        const { error } = await supabase.auth.signUp({
+        const { data, error } = await supabase.auth.signUp({
           email,
           password,
           options: { emailRedirectTo: `${window.location.origin}/auth/callback` },
         });
         if (error) throw error;
-        setMessage("Check your email to confirm your account.");
+
+        if (data.user) {
+          const { data: existing } = await supabase
+            .from("profiles")
+            .select("id")
+            .eq("id", data.user.id)
+            .maybeSingle();
+          if (!existing) {
+            await supabase.from("profiles").insert({
+              id: data.user.id,
+              full_name: email.split("@")[0],
+            });
+          }
+        }
+        setMessage("Account created! You can now sign in.");
       } else {
         const { data, error } = await supabase.auth.signInWithPassword({
           email,
@@ -37,6 +52,7 @@ export function LoginForm() {
         if (data.session?.access_token) {
           document.cookie = `sb-auth=${data.session.access_token}; path=/; max-age=31536000; SameSite=Lax; Secure`;
         }
+        await ensureProfile();
         window.location.href = "/dashboard";
       }
     } catch (err: unknown) {

@@ -12,11 +12,19 @@ export default async function DashboardLayout({
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) redirect("/login");
 
-  const { data: profile } = await supabase
+  let { data: profile } = await supabase
     .from("profiles")
     .select("*")
     .eq("id", user.id)
-    .single();
+    .maybeSingle();
+
+  if (!profile) {
+    await supabase.from("profiles").insert({
+      id: user.id,
+      full_name: user.email?.split("@")[0] ?? null,
+    });
+    profile = { id: user.id, full_name: user.email?.split("@")[0] ?? null } as typeof profile;
+  }
 
   return (
     <div className="flex min-h-screen">
