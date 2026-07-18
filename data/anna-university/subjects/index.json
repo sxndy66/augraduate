@@ -1,0 +1,80 @@
+[
+  {
+    "branch": "aids",
+    "regulation": "r2021",
+    "file": "sample-aids-r2021.json",
+    "degree": "be"
+  },
+  {
+    "branch": "cse",
+    "regulation": "r2021",
+    "file": "cse-r2021.json",
+    "degree": "be"
+  },
+  {
+    "branch": "it",
+    "regulation": "r2021",
+    "file": "it-r2021.json",
+    "degree": "be"
+  },
+  {
+    "branch": "ece",
+    "regulation": "r2021",
+    "file": "ece-r2021.json",
+    "degree": "be"
+  },
+  {
+    "branch": "eee",
+    "regulation": "r2021",
+    "file": "eee-r2021.json",
+    "degree": "be"
+  },
+  {
+    "branch": "mech",
+    "regulation": "r2021",
+    "file": "mech-r2021.json",
+    "degree": "be"
+  },
+  {
+    "branch": "civil",
+    "regulation": "r2021",
+    "file": "civil-r2021.json",
+    "degree": "be"
+  },
+  {
+    "branch": "aiml",
+    "regulation": "r2021",
+    "file": "aiml-r2021.json",
+    "degree": "be"
+  },
+  {
+    "branch": "cse",
+    "regulation": "r2017",
+    "file": "cse-r2017.json",
+    "degree": "be"
+  },
+  {
+    "branch": "ece",
+    "regulation": "r2017",
+    "file": "ece-r2017.json",
+    "degree": "be"
+  },
+  {
+    "branch": "eee",
+    "regulation": "r2017",
+    "file": "eee-r2017.json",
+    "degree": "be"
+  },
+  {
+    "branch": "mech",
+    "regulation": "r2017",
+    "file": "mech-r2017.json",
+    "degree": "be"
+  },
+  {
+    "branch": "civil",
+    "regulation": "r2017",
+    "file": "civil-r2017.json",
+    "degree": "be"
+  }
+]

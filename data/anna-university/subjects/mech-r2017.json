@@ -1,0 +1,490 @@
+[
+  {
+    "subject_code": "HS6151",
+    "subject_name": "Technical English \u2013 I",
+    "credits": 4,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "MA6151",
+    "subject_name": "Mathematics \u2013 I",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "PH6151",
+    "subject_name": "Engineering Physics \u2013 I",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "CY6151",
+    "subject_name": "Engineering Chemistry \u2013 I",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE6151",
+    "subject_name": "Computer Programming",
+    "credits": 3,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE6152",
+    "subject_name": "Engineering Graphics",
+    "credits": 4,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE6161",
+    "subject_name": "Computer Programming Lab",
+    "credits": 2,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE6162",
+    "subject_name": "Engineering Practice Lab",
+    "credits": 2,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "HS6251",
+    "subject_name": "Technical English \u2013 II",
+    "credits": 4,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "MA6251",
+    "subject_name": "Mathematics \u2013 II",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "PH6251",
+    "subject_name": "Engineering Physics \u2013 II",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "CY6251",
+    "subject_name": "Engineering Chemistry \u2013 II",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "ME6201",
+    "subject_name": "Engineering Mechanics",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "ME6202",
+    "subject_name": "Engineering Thermodynamics",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "ME6211",
+    "subject_name": "Mechanics Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "ME6212",
+    "subject_name": "Thermodynamics Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "MA6351",
+    "subject_name": "Transforms and PDE",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "ME6301",
+    "subject_name": "Fluid Mechanics",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "ME6302",
+    "subject_name": "Manufacturing Technology \u2013 I",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "ME6303",
+    "subject_name": "Strength of Materials",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "ME6304",
+    "subject_name": "Kinematics of Machinery",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "ME6311",
+    "subject_name": "Fluid Mechanics Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "ME6312",
+    "subject_name": "Manufacturing Lab \u2013 I",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "MA6402",
+    "subject_name": "Numerical Methods",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "ME6401",
+    "subject_name": "Thermal Engineering",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "ME6402",
+    "subject_name": "Manufacturing Technology \u2013 II",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "ME6403",
+    "subject_name": "Dynamics of Machinery",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "ME6404",
+    "subject_name": "Heat and Mass Transfer",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "ME6411",
+    "subject_name": "Thermal Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "ME6412",
+    "subject_name": "Manufacturing Lab \u2013 II",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "ME6413",
+    "subject_name": "Dynamics Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "ME6501",
+    "subject_name": "Design of Machine Elements",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "ME6502",
+    "subject_name": "Computer Aided Manufacturing",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "ME6503",
+    "subject_name": "Finite Element Analysis",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "ME6504",
+    "subject_name": "Refrigeration and Air Conditioning",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "ME6505",
+    "subject_name": "Automobile Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "ME6511",
+    "subject_name": "CAM Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "ME6512",
+    "subject_name": "FEA Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "ME6513",
+    "subject_name": "Refrigeration Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "ME6601",
+    "subject_name": "Design of Transmission Systems",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "ME6602",
+    "subject_name": "Hydraulic and Pneumatic Systems",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "ME6603",
+    "subject_name": "Power Plant Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "ME6604",
+    "subject_name": "Gas Dynamics and Jet Propulsion",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "ME6605",
+    "subject_name": "Robotics",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "ME6611",
+    "subject_name": "Hydraulics Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "ME6612",
+    "subject_name": "Robotics Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "ME6613",
+    "subject_name": "Thermal Lab \u2013 II",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "ME6701",
+    "subject_name": "Mechatronics",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "ME6702",
+    "subject_name": "Operations Research",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "ME6703",
+    "subject_name": "Industrial Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "ME6704",
+    "subject_name": "Additive Manufacturing",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "GE6757",
+    "subject_name": "Professional Ethics",
+    "credits": 3,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "ME6711",
+    "subject_name": "Mini Project",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "ME6712",
+    "subject_name": "Mechatronics Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "ME6713",
+    "subject_name": "Industrial Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "ME6801",
+    "subject_name": "Advanced Manufacturing",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "ME6802",
+    "subject_name": "Nanotechnology",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "ME6803",
+    "subject_name": "Composite Materials",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "ME6804",
+    "subject_name": "Quality Control",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "ME6811",
+    "subject_name": "Project Work",
+    "credits": 10,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "ME6812",
+    "subject_name": "Internship",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  }
+]

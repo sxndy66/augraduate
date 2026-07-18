@@ -1,0 +1,482 @@
+[
+  {
+    "subject_code": "HS8151",
+    "subject_name": "Communicative English",
+    "credits": 4,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "MA8151",
+    "subject_name": "Engineering Mathematics \u2013 I",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "PH8151",
+    "subject_name": "Engineering Physics",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "CY8151",
+    "subject_name": "Engineering Chemistry",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8151",
+    "subject_name": "Problem Solving and Python Programming",
+    "credits": 3,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8152",
+    "subject_name": "Engineering Graphics",
+    "credits": 4,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8161",
+    "subject_name": "Problem Solving and Python Programming Lab",
+    "credits": 2,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "BS8161",
+    "subject_name": "Physics and Chemistry Lab",
+    "credits": 2,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "HS8251",
+    "subject_name": "Technical English",
+    "credits": 4,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "MA8251",
+    "subject_name": "Engineering Mathematics \u2013 II",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "PH8201",
+    "subject_name": "Physics for Civil Engineering",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "BE8251",
+    "subject_name": "Basic Electrical and Electronics Engineering",
+    "credits": 3,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "CE8251",
+    "subject_name": "Engineering Mechanics",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "CE8261",
+    "subject_name": "Engineering Mechanics Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "BE8261",
+    "subject_name": "Basic EEE Lab",
+    "credits": 2,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "MA8351",
+    "subject_name": "Transforms and Partial Differential Equations",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "CE8391",
+    "subject_name": "Strength of Materials",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "CE8392",
+    "subject_name": "Engineering Geology",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "CE8393",
+    "subject_name": "Fluid Mechanics",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "CE8394",
+    "subject_name": "Surveying",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "CE8381",
+    "subject_name": "Strength of Materials Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "CE8382",
+    "subject_name": "Surveying Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "MA8402",
+    "subject_name": "Numerical Methods",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CE8491",
+    "subject_name": "Soil Mechanics",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CE8492",
+    "subject_name": "Concrete Technology",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CE8493",
+    "subject_name": "Applied Hydraulic Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CE8494",
+    "subject_name": "Structural Analysis \u2013 I",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CE8481",
+    "subject_name": "Soil Mechanics Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CE8482",
+    "subject_name": "Concrete Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CE8483",
+    "subject_name": "Hydraulics Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CE8501",
+    "subject_name": "Structural Analysis \u2013 II",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CE8591",
+    "subject_name": "Design of Reinforced Concrete Elements",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CE8592",
+    "subject_name": "Environmental Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CE8593",
+    "subject_name": "Water Resources Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CE8594",
+    "subject_name": "Foundation Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CE8581",
+    "subject_name": "Environmental Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CE8582",
+    "subject_name": "Water Resources Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CE8583",
+    "subject_name": "Foundation Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CE8601",
+    "subject_name": "Design of Steel Structures",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "CE8602",
+    "subject_name": "Highway Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "CE8603",
+    "subject_name": "Railway Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "CE8604",
+    "subject_name": "Construction Project Management",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "CE8605",
+    "subject_name": "Remote Sensing and GIS",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "CE8681",
+    "subject_name": "Highway Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "CE8682",
+    "subject_name": "GIS Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "CE8683",
+    "subject_name": "Construction Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "CE8711",
+    "subject_name": "Earthquake Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "CE8712",
+    "subject_name": "Bridge Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "CE8713",
+    "subject_name": "Air Pollution and Control",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "CE8714",
+    "subject_name": "Solid Waste Management",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "GE8076",
+    "subject_name": "Professional Ethics",
+    "credits": 3,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "CE8781",
+    "subject_name": "Mini Project",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "CE8782",
+    "subject_name": "Earthquake Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "CE8783",
+    "subject_name": "Environmental Lab \u2013 II",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "CE8791",
+    "subject_name": "Prefabricated Structures",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "CE8792",
+    "subject_name": "Smart Structures",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "CE8793",
+    "subject_name": "Green Building Technology",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "CE8794",
+    "subject_name": "Coastal Engineering",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "CE8811",
+    "subject_name": "Project Work",
+    "credits": 10,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "CE8812",
+    "subject_name": "Internship",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  }
+]

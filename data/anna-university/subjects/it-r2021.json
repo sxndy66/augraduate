@@ -1,0 +1,482 @@
+[
+  {
+    "subject_code": "HS8151",
+    "subject_name": "Communicative English",
+    "credits": 4,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "MA8151",
+    "subject_name": "Engineering Mathematics \u2013 I",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "PH8151",
+    "subject_name": "Engineering Physics",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "CY8151",
+    "subject_name": "Engineering Chemistry",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8151",
+    "subject_name": "Problem Solving and Python Programming",
+    "credits": 3,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8152",
+    "subject_name": "Engineering Graphics",
+    "credits": 4,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8161",
+    "subject_name": "Problem Solving and Python Programming Lab",
+    "credits": 2,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "BS8161",
+    "subject_name": "Physics and Chemistry Lab",
+    "credits": 2,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "HS8251",
+    "subject_name": "Technical English",
+    "credits": 4,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "MA8251",
+    "subject_name": "Engineering Mathematics \u2013 II",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "PH8201",
+    "subject_name": "Physics for Information Science",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "BE8251",
+    "subject_name": "Basic Electrical and Electronics Engineering",
+    "credits": 3,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "IT8251",
+    "subject_name": "Programming in C",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "IT8261",
+    "subject_name": "C Programming Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "BE8261",
+    "subject_name": "Basic Electrical and Electronics Engineering Lab",
+    "credits": 2,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "MA8351",
+    "subject_name": "Discrete Mathematics",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "IT8351",
+    "subject_name": "Digital Logic and Computer Design",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "IT8391",
+    "subject_name": "Data Structures and Algorithms",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "IT8392",
+    "subject_name": "Object Oriented Programming",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "IT8393",
+    "subject_name": "Computer Organization and Architecture",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "IT8381",
+    "subject_name": "Data Structures Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "IT8382",
+    "subject_name": "OOP Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "MA8402",
+    "subject_name": "Probability and Queueing Models",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "IT8491",
+    "subject_name": "Database Management Systems",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "IT8492",
+    "subject_name": "Operating Systems",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "IT8493",
+    "subject_name": "Software Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "IT8494",
+    "subject_name": "Computer Networks",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "IT8481",
+    "subject_name": "DBMS Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "IT8482",
+    "subject_name": "OS Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "IT8483",
+    "subject_name": "Networks Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "IT8501",
+    "subject_name": "Theory of Computation",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "IT8591",
+    "subject_name": "Web Technology",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "IT8592",
+    "subject_name": "Information Security",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "IT8593",
+    "subject_name": "Mobile Computing",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "IT8594",
+    "subject_name": "Cloud Computing",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "IT8581",
+    "subject_name": "Web Technology Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "IT8582",
+    "subject_name": "Mobile Computing Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "IT8583",
+    "subject_name": "Cloud Computing Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "IT8601",
+    "subject_name": "Compiler Design",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "IT8602",
+    "subject_name": "Distributed Systems",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "IT8603",
+    "subject_name": "Artificial Intelligence",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "IT8604",
+    "subject_name": "Data Mining and Data Warehousing",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "IT8605",
+    "subject_name": "Information Retrieval Techniques",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "IT8681",
+    "subject_name": "Compiler Design Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "IT8682",
+    "subject_name": "Data Mining Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "IT8683",
+    "subject_name": "AI Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "IT8711",
+    "subject_name": "Cryptography and Network Security",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "IT8712",
+    "subject_name": "Big Data Analytics",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "IT8713",
+    "subject_name": "Machine Learning",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "IT8714",
+    "subject_name": "Internet of Things",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "GE8076",
+    "subject_name": "Professional Ethics",
+    "credits": 3,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "IT8781",
+    "subject_name": "Mini Project",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "IT8782",
+    "subject_name": "IoT Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "IT8783",
+    "subject_name": "Big Data Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "IT8811",
+    "subject_name": "Deep Learning",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "IT8812",
+    "subject_name": "Natural Language Processing",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "IT8813",
+    "subject_name": "Blockchain Technologies",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "IT8814",
+    "subject_name": "Quantum Information Processing",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "IT8821",
+    "subject_name": "Project Work",
+    "credits": 10,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "IT8822",
+    "subject_name": "Internship",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  }
+]

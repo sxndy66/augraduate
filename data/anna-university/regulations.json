@@ -1,0 +1,58 @@
+[
+  {
+    "id": "R2017",
+    "name": "Regulation 2017",
+    "shortName": "R2017",
+    "fullName": "Anna University Regulation 2017",
+    "effectiveFrom": 2017,
+    "effectiveTo": 2020,
+    "isActive": false,
+    "gradingSystem": {
+      "O": 10,
+      "A+": 9,
+      "A": 8,
+      "B+": 7,
+      "B": 6,
+      "C": 5,
+      "U": 0,
+      "RA": 0
+    },
+    "passMark": 50,
+    "totalSemesters": 8,
+    "creditsRequired": {
+      "B.E": 160,
+      "B.Tech": 172,
+      "M.E": 68,
+      "M.Tech": 68
+    },
+    "description": "Regulation 2017 curriculum for Anna University undergraduate and postgraduate programs."
+  },
+  {
+    "id": "R2021",
+    "name": "Regulation 2021",
+    "shortName": "R2021",
+    "fullName": "Anna University Regulation 2021",
+    "effectiveFrom": 2021,
+    "effectiveTo": null,
+    "isActive": true,
+    "gradingSystem": {
+      "O": 10,
+      "A+": 9,
+      "A": 8,
+      "B+": 7,
+      "B": 6,
+      "C": 5,
+      "U": 0,
+      "RA": 0
+    },
+    "passMark": 50,
+    "totalSemesters": 8,
+    "creditsRequired": {
+      "B.E": 160,
+      "B.Tech": 172,
+      "M.E": 68,
+      "M.Tech": 68
+    },
+    "description": "Regulation 2021 curriculum for Anna University undergraduate and postgraduate programs with updated course structure and elective choices."
+  }
+]

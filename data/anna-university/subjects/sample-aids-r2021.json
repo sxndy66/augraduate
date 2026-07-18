@@ -1,0 +1,498 @@
+[
+  {
+    "subject_code": "HS8151",
+    "subject_name": "Communicative English",
+    "credits": 4,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "MA8151",
+    "subject_name": "Engineering Mathematics – I",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "PH8151",
+    "subject_name": "Engineering Physics",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "CY8151",
+    "subject_name": "Engineering Chemistry",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8151",
+    "subject_name": "Problem Solving and Python Programming",
+    "credits": 3,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8152",
+    "subject_name": "Engineering Graphics",
+    "credits": 4,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8161",
+    "subject_name": "Problem Solving and Python Programming Laboratory",
+    "credits": 2,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "BS8161",
+    "subject_name": "Physics and Chemistry Laboratory",
+    "credits": 2,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "HS8251",
+    "subject_name": "Technical English",
+    "credits": 4,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "MA8251",
+    "subject_name": "Engineering Mathematics – II",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "PH8201",
+    "subject_name": "Physics for Information Science",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "BE8251",
+    "subject_name": "Basic Electrical and Electronics Engineering",
+    "credits": 3,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "GE8291",
+    "subject_name": "Environmental Science and Engineering",
+    "credits": 3,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "GE8292",
+    "subject_name": "Engineering Mechanics",
+    "credits": 3,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "AI8201",
+    "subject_name": "Foundations of Artificial Intelligence",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "AI8211",
+    "subject_name": "Foundations of Artificial Intelligence Laboratory",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "BE8261",
+    "subject_name": "Basic Electrical and Electronics Engineering Laboratory",
+    "credits": 2,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "MA8351",
+    "subject_name": "Discrete Mathematics",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "CS8391",
+    "subject_name": "Data Structures",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "CS8392",
+    "subject_name": "Object Oriented Programming",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "AI8301",
+    "subject_name": "Machine Learning Techniques",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "AI8302",
+    "subject_name": "Intelligent Systems",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "CS8383",
+    "subject_name": "Object Oriented Programming Laboratory",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "CS8382",
+    "subject_name": "Data Structures Laboratory",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "AI8311",
+    "subject_name": "Machine Learning Laboratory",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "MA8402",
+    "subject_name": "Probability and Queueing Models",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CS8492",
+    "subject_name": "Database Management Systems",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CS8493",
+    "subject_name": "Operating Systems",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "AI8401",
+    "subject_name": "Deep Learning",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "AI8402",
+    "subject_name": "Natural Language Processing",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "CS8482",
+    "subject_name": "Database Management Systems Laboratory",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "AI8411",
+    "subject_name": "Deep Learning Laboratory",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "AI8412",
+    "subject_name": "Natural Language Processing Laboratory",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "MA8551",
+    "subject_name": "Algebra and Number Theory",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CS8592",
+    "subject_name": "Computer Networks",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "AI8501",
+    "subject_name": "Computer Vision",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "AI8502",
+    "subject_name": "Reinforcement Learning",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "AI8503",
+    "subject_name": "Knowledge Engineering and Expert Systems",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "AI8511",
+    "subject_name": "Computer Vision Laboratory",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CS8593",
+    "subject_name": "Computer Networks Laboratory",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "AI8001",
+    "subject_name": "Professional Elective I – Big Data Analytics",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "CS8691",
+    "subject_name": "Artificial Intelligence",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "AI8601",
+    "subject_name": "Data Science Programming",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "AI8602",
+    "subject_name": "Fuzzy Logic and Neural Networks",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "AI8603",
+    "subject_name": "Robotics and Automation",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "AI8611",
+    "subject_name": "Data Science Programming Laboratory",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "AI8612",
+    "subject_name": "Mini Project – AI Application Development",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "AI8002",
+    "subject_name": "Professional Elective II – Cloud Computing",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "AI8003",
+    "subject_name": "Open Elective I – Internet of Things",
+    "credits": 3,
+    "category": "OE",
+    "is_elective": true,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "AI8701",
+    "subject_name": "Human Computer Interaction",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "AI8702",
+    "subject_name": "Cognitive Systems",
+    "credits": 4,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "AI8703",
+    "subject_name": "Ethics in Artificial Intelligence",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "AI8711",
+    "subject_name": "AI Project Work – Phase I",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "AI8004",
+    "subject_name": "Professional Elective III – Data Mining and Warehousing",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "AI8005",
+    "subject_name": "Professional Elective IV – Bioinformatics",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "AI8006",
+    "subject_name": "Open Elective II – Blockchain Technology",
+    "credits": 3,
+    "category": "OE",
+    "is_elective": true,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "GE8076",
+    "subject_name": "Professional Ethics in Engineering",
+    "credits": 3,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "AI8801",
+    "subject_name": "Generative AI and Large Language Models",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "AI8802",
+    "subject_name": "MLOps and Model Deployment",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "AI8007",
+    "subject_name": "Professional Elective V – Quantum Machine Learning",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "AI8008",
+    "subject_name": "Professional Elective VI – Edge AI",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "AI8811",
+    "subject_name": "Project Work – Phase II (Final Year Project)",
+    "credits": 8,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  }
+]

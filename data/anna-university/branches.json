@@ -1,0 +1,202 @@
+[
+  {
+    "id": "cse",
+    "code": "CSE",
+    "name": "Computer Science and Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "it",
+    "code": "IT",
+    "name": "Information Technology",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "ece",
+    "code": "ECE",
+    "name": "Electronics and Communication Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "eee",
+    "code": "EEE",
+    "name": "Electrical and Electronics Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "mech",
+    "code": "MECH",
+    "name": "Mechanical Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "civil",
+    "code": "CIVIL",
+    "name": "Civil Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "aids",
+    "code": "AIDS",
+    "name": "Artificial Intelligence and Data Science",
+    "degree_id": "be",
+    "regulations": ["R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "aiml",
+    "code": "AIML",
+    "name": "Artificial Intelligence and Machine Learning",
+    "degree_id": "be",
+    "regulations": ["R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "biomedical",
+    "code": "BME",
+    "name": "Biomedical Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "biotech",
+    "code": "BTECH",
+    "name": "Biotechnology",
+    "degree_id": "btech",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "chemical",
+    "code": "CHEM",
+    "name": "Chemical Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "aero",
+    "code": "AERO",
+    "name": "Aeronautical Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "auto",
+    "code": "AUTO",
+    "name": "Automobile Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "mechatronics",
+    "code": "MEC",
+    "name": "Mechatronics Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "food",
+    "code": "FOOD",
+    "name": "Food Technology",
+    "degree_id": "btech",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "fashion",
+    "code": "FASH",
+    "name": "Fashion Technology",
+    "degree_id": "btech",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "textile",
+    "code": "TEXT",
+    "name": "Textile Technology",
+    "degree_id": "btech",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "plastic",
+    "code": "PLAS",
+    "name": "Plastic Technology",
+    "degree_id": "btech",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "geo",
+    "code": "GEO",
+    "name": "Geoinformatics",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "industrial",
+    "code": "IND",
+    "name": "Industrial Engineering",
+    "degree_id": "be",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 8
+  },
+  {
+    "id": "mtech-cse",
+    "code": "CSE",
+    "name": "Computer Science and Engineering",
+    "degree_id": "mtech",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 4
+  },
+  {
+    "id": "me-cse",
+    "code": "CSE",
+    "name": "Computer Science and Engineering",
+    "degree_id": "me",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 4
+  },
+  {
+    "id": "me-vlsi",
+    "code": "VLSI",
+    "name": "VLSI Design",
+    "degree_id": "me",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 4
+  },
+  {
+    "id": "me-embedded",
+    "code": "EMB",
+    "name": "Embedded Systems",
+    "degree_id": "me",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 4
+  },
+  {
+    "id": "me-power",
+    "code": "POWER",
+    "name": "Power Systems Engineering",
+    "degree_id": "me",
+    "regulations": ["R2017", "R2021"],
+    "totalSemesters": 4
+  }
+]

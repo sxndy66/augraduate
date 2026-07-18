@@ -1,0 +1,482 @@
+[
+  {
+    "subject_code": "HS8151",
+    "subject_name": "Communicative English",
+    "credits": 4,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "MA8151",
+    "subject_name": "Engineering Mathematics \u2013 I",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "PH8151",
+    "subject_name": "Engineering Physics",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "CY8151",
+    "subject_name": "Engineering Chemistry",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8151",
+    "subject_name": "Problem Solving and Python Programming",
+    "credits": 3,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8152",
+    "subject_name": "Engineering Graphics",
+    "credits": 4,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "GE8161",
+    "subject_name": "Problem Solving and Python Programming Lab",
+    "credits": 2,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "BS8161",
+    "subject_name": "Physics and Chemistry Lab",
+    "credits": 2,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 1
+  },
+  {
+    "subject_code": "HS8251",
+    "subject_name": "Technical English",
+    "credits": 4,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "MA8251",
+    "subject_name": "Engineering Mathematics \u2013 II",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "PH8201",
+    "subject_name": "Physics for Electronics",
+    "credits": 3,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "BE8251",
+    "subject_name": "Basic Electrical and Electronics Engineering",
+    "credits": 3,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "EC8251",
+    "subject_name": "Circuit Analysis",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "EC8261",
+    "subject_name": "Circuit Analysis Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "BE8261",
+    "subject_name": "Basic EEE Lab",
+    "credits": 2,
+    "category": "ES",
+    "is_elective": false,
+    "semester_number": 2
+  },
+  {
+    "subject_code": "MA8351",
+    "subject_name": "Transforms and Partial Differential Equations",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "EC8351",
+    "subject_name": "Electronic Devices and Circuits",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "EC8352",
+    "subject_name": "Signals and Systems",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "EC8353",
+    "subject_name": "Electromagnetic Fields",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "EC8391",
+    "subject_name": "Control Systems",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "EC8381",
+    "subject_name": "Electronic Devices and Circuits Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "EC8382",
+    "subject_name": "Signals and Systems Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 3
+  },
+  {
+    "subject_code": "MA8402",
+    "subject_name": "Probability and Random Processes",
+    "credits": 4,
+    "category": "BS",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "EC8491",
+    "subject_name": "Analog and Digital Communication",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "EC8492",
+    "subject_name": "Analog Integrated Circuits",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "EC8493",
+    "subject_name": "Microprocessors and Microcontrollers",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "EC8494",
+    "subject_name": "Digital Signal Processing",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "EC8481",
+    "subject_name": "Communication Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "EC8482",
+    "subject_name": "Analog IC Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "EC8483",
+    "subject_name": "Microprocessors Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 4
+  },
+  {
+    "subject_code": "EC8501",
+    "subject_name": "Digital Logic Circuits",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "EC8591",
+    "subject_name": "Transmission Lines and Waveguides",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "EC8592",
+    "subject_name": "VLSI Design",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "EC8593",
+    "subject_name": "Antennas and Wave Propagation",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "EC8594",
+    "subject_name": "Computer Networks",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "EC8581",
+    "subject_name": "Digital Logic Circuits Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "EC8582",
+    "subject_name": "VLSI Design Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "EC8583",
+    "subject_name": "Networks Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 5
+  },
+  {
+    "subject_code": "EC8601",
+    "subject_name": "Embedded Systems",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "EC8602",
+    "subject_name": "Wireless Communication",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "EC8603",
+    "subject_name": "Optical Communication",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "EC8604",
+    "subject_name": "Satellite Communication",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "EC8605",
+    "subject_name": "Digital Image Processing",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "EC8681",
+    "subject_name": "Embedded Systems Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "EC8682",
+    "subject_name": "Wireless Communication Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "EC8683",
+    "subject_name": "Image Processing Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 6
+  },
+  {
+    "subject_code": "EC8711",
+    "subject_name": "Wireless Sensor Networks",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "EC8712",
+    "subject_name": "Telecommunication Switching Systems",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "EC8713",
+    "subject_name": "RF and Microwave Engineering",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "EC8714",
+    "subject_name": "IOT and Applications",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "GE8076",
+    "subject_name": "Professional Ethics",
+    "credits": 3,
+    "category": "HS",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "EC8781",
+    "subject_name": "Mini Project",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "EC8782",
+    "subject_name": "RF Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "EC8783",
+    "subject_name": "IoT Lab",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 7
+  },
+  {
+    "subject_code": "EC8791",
+    "subject_name": "Cognitive Radio",
+    "credits": 3,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "EC8792",
+    "subject_name": "Nanoelectronics",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "EC8793",
+    "subject_name": "5G and Beyond",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "EC8794",
+    "subject_name": "Quantum Communication",
+    "credits": 3,
+    "category": "PE",
+    "is_elective": true,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "EC8811",
+    "subject_name": "Project Work",
+    "credits": 10,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  },
+  {
+    "subject_code": "EC8812",
+    "subject_name": "Internship",
+    "credits": 2,
+    "category": "PC",
+    "is_elective": false,
+    "semester_number": 8
+  }
+]
