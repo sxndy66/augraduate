@@ -1,34 +1,52 @@
 import { NextResponse } from "next/server";
-import { createClient as createSupabaseClient } from "@supabase/supabase-js";
+import { createClient } from "@/lib/supabase/server";
 
 export async function GET(request: Request) {
-  const { searchParams, origin } = new URL(request.url);
-  const code = searchParams.get("code");
-  const next = searchParams.get("next") ?? "/dashboard";
+  const requestUrl = new URL(request.url);
+  const code = requestUrl.searchParams.get("code");
+  const redirectParam = requestUrl.searchParams.get("redirect");
+
+  const origin = requestUrl.origin;
 
   if (code) {
-    try {
-      const supabase = createSupabaseClient(
-        process.env.NEXT_PUBLIC_SUPABASE_URL!,
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-        { auth: { autoRefreshToken: false, persistSession: false } },
-      );
-      const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+    const supabase = createClient();
+    const { error } = await supabase.auth.exchangeCodeForSession(code);
 
-      if (!error && data.session) {
-        const response = NextResponse.redirect(`${origin}${next}`);
-        response.cookies.set("sb-auth", data.session.access_token, {
-          path: "/",
-          maxAge: 31536000,
-          sameSite: "lax",
-          secure: true,
-        });
-        return response;
+    if (error) {
+      // Redirect to login with error message
+      return NextResponse.redirect(
+        `${origin}/login?error=${encodeURIComponent("Authentication failed. Please try again.")}`
+      );
+    }
+
+    // Successfully exchanged code for session — check onboarding status
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+
+    if (user) {
+      const { data: profile } = await supabase
+        .from("profiles")
+        .select("onboarding_completed")
+        .eq("id", user.id)
+        .single();
+
+      const onboardingCompleted = profile?.onboarding_completed ?? false;
+
+      // If a specific redirect is requested and onboarding is done, honor it
+      if (redirectParam && onboardingCompleted) {
+        return NextResponse.redirect(`${origin}${redirectParam}`);
       }
-    } catch {
-      // Fall through to error redirect
+
+      // Otherwise route based on onboarding status
+      if (!onboardingCompleted) {
+        return NextResponse.redirect(`${origin}/onboarding`);
+      }
+
+      return NextResponse.redirect(`${origin}/dashboard`);
     }
   }
 
-  return NextResponse.redirect(`${origin}/login?error=auth_failed`);
+  // No code present — redirect to login
+  return NextResponse.redirect(`${origin}/login`);
 }
